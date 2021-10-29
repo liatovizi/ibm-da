@@ -130,7 +130,7 @@ app.layout = (html.Div(children=[
                                          ], 
                                           style={'display': 'flex'})
                                 ])
-             )
+             
 
 # Callback function definition
 # TODO4: Add 5 ouput components
