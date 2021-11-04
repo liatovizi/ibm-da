@@ -68,7 +68,7 @@ def compute_data_choice_2(df):
     return [avg_car, avg_weather, avg_NAS, avg_sec, avg_late]
 
 # Application layout
-app.layout = (html.Div(children=[ 
+app.layout = html.Div(children=[ 
                                 # TODO1: Add title to the dashboard
                                 html.H1('US Domestic Airline Flights Performance',
                                         style={'text-align-last':'centre','color':'#503D36','font-size':24}
